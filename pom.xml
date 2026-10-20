@@ -6,7 +6,7 @@
 
     <groupId>com.firefly</groupId>
     <artifactId>firefly-bom</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>26.10.20</version>
     <packaging>pom</packaging>
 
     <name>Firefly OpenPlatform BOM</name>
@@ -19,78 +19,78 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-common-core</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-common-web</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-common-r2dbc</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-common-auth</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-common-eda</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-common-cache</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-common-batch</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- Domain Libraries -->
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-psps</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-rails</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- Utility Libraries -->
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-utils</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-commons-validators</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-workflow-engine</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- Plugin Manager -->
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-plugin-manager-core</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>library-plugin-manager-api</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -99,27 +99,27 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-accounts</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-cards</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-ledger</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-payments</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-psdx</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -128,37 +128,37 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-policies</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-underwriting</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-claims</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-financials</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-delegated-authority</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-reinsurance</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-reserving</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -167,62 +167,62 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-asset-finance</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-collateral-management</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-credit-cards</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-credit-scoring</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-delinquency-collections</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-loan-origination</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-loan-servicing</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-mortgage</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-personal-loans</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-provisioning-risk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-regulatory-compliance</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-supply-chain-finance</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -231,77 +231,77 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-accounting-gl</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-config-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-contract-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-customer-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-distributor-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-document-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-kycb-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-modelhub</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-notification-services</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-org-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-product-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-reference-master-data</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-sca-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-security-vault</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-user-mgmt</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -310,12 +310,12 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-data-credit-bureaus</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-data-template</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -324,92 +324,92 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-banking-accounts</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-banking-cards</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-common-contracts</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-common-notifications</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-common-sca</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-core-configuration</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-core-security-center</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-customer-kyc-kyb</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-customer-people</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-distributor-branding</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-distributor-catalog</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-loan-origination</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-loan-servicing</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-credit-scoring</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-asset-finance</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-personal-loans</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-product-catalog</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-product-pricing</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -418,32 +418,32 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-distributor</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-channel-management</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-security</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-lending</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-profile</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-notifications</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ================= -->
@@ -452,17 +452,17 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>app-authenticator</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>app-configurator-masters</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>bfc-initconfig</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
 
             <!-- ============================== -->
@@ -471,342 +471,342 @@
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-accounts-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-cards-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-ledger-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-payments-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-banking-psdx-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-policies-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-underwriting-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-claims-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-financials-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-delegated-authority-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-reinsurance-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-insurance-reserving-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-accounting-gl-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-config-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-contract-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-customer-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-distributor-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-document-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-kycb-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-modelhub-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-notification-services-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-org-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-product-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-reference-master-data-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-sca-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-security-vault-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-common-user-mgmt-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-data-credit-bureaus-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-data-template-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-asset-finance-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-collateral-management-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-credit-cards-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-credit-scoring-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-delinquency-collections-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-loan-origination-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-loan-servicing-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-mortgages-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-personal-loans-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-provisioning-risk-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-regulatory-compliance-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>core-lending-supply-chain-finance-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-banking-accounts-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-banking-cards-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-common-contracts-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-common-notifications-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-common-sca-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-core-configuration-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-core-security-center-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-customer-kyc-kyb-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-customer-people-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-core-pricing-engine-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-distributor-branding-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-distributor-catalog-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-loan-origination-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-loan-servicing-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-credit-scoring-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-asset-finance-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-lending-personal-loans-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-product-catalog-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>domain-product-pricing-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>bfc-initconfig-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-distributor-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-channel-management-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-security-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-lending-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-profile-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>exp-notifications-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
             <dependency>
                 <groupId>com.firefly</groupId>
                 <artifactId>firefly-flow-sdk</artifactId>
-                <version>1.2.0-SNAPSHOT</version>
+                <version>26.10.20</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
