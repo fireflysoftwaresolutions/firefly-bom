@@ -35,7 +35,7 @@ Import the BOM inside your `<dependencyManagement>` section:
         <dependency>
             <groupId>com.firefly</groupId>
             <artifactId>firefly-bom</artifactId>
-            <version>26.10.1</version>
+            <version>26.10.2</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -48,7 +48,7 @@ Then declare dependencies without a `<version>`:
 ```xml
 <dependency>
     <groupId>com.firefly</groupId>
-    <artifactId>library-common-core</artifactId>
+    <artifactId>library-common-batch</artifactId>
 </dependency>
 ```
 
@@ -58,20 +58,9 @@ Then declare dependencies without a `<version>`:
 
 | Artifact | Description |
 |----------|-------------|
-| `library-common-core` | Core utilities and common patterns |
-| `library-common-web` | Web layer utilities and configurations |
-| `library-common-r2dbc` | Reactive database access |
-| `library-common-auth` | Authentication and authorization framework |
-| `library-common-eda` | Event-driven architecture support |
-| `library-common-cache` | Caching utilities |
 | `library-common-batch` | Batch processing support |
 | `library-psps` | Payment service provider support |
 | `library-rails` | Rails integration library |
-| `library-utils` | General-purpose utilities |
-| `library-commons-validators` | Data validation utilities |
-| `library-workflow-engine` | Workflow engine |
-| `library-plugin-manager-core` | Plugin manager core |
-| `library-plugin-manager-api` | Plugin manager API |
 
 ### Core Banking
 
@@ -108,7 +97,7 @@ Insurance cores store records. They reference parties in `core-common-customer-m
 | `core-lending-delinquency-collections` | Collections and recovery |
 | `core-lending-loan-origination` | Loan application and approval |
 | `core-lending-loan-servicing` | Loan administration |
-| `core-lending-mortgage` | Mortgage lending |
+| `core-lending-mortgages` | Mortgage lending |
 | `core-lending-provisioning-risk` | Risk provisioning |
 | `core-lending-regulatory-compliance` | Lending compliance |
 | `core-lending-supply-chain-finance` | Supply chain finance |
@@ -138,7 +127,7 @@ Insurance cores store records. They reference parties in `core-common-customer-m
 | Artifact | Description |
 |----------|-------------|
 | `domain-data-credit-bureaus` | Credit bureau integration |
-| `core-data-template` | Data service template |
+| `domain-data-business-intelligence` | Business intelligence extracts |
 
 ### Domain Services
 
