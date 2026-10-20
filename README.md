@@ -13,15 +13,15 @@ Developed by the Firefly Software Foundation. [dev@fireflysoftware.io](mailto:de
 
 [Website](https://fireflysoftware.io/) · [OpenPlatform](https://fireflysoftware.io/openplatform/) · [Module catalogue](https://fireflysoftware.io/openplatform/modules/)
 
-Centralized version management for **all** Firefly OpenPlatform `com.firefly` artifacts. Import this BOM to pin every shared library, core service, domain service, experience service, and application to a single version.
+Centralized version management for **all** Firefly OpenPlatform `io.fireflysoftware` artifacts. Import this BOM to pin every shared library, core service, domain service, experience service, and application to a single version.
 
 OpenPlatform covers shared business capabilities and the industry cores that sit on them. Banking and lending are two of those industries. Insurance is another. The bill of materials is not a core-banking-only catalog.
 
-> **Note:** This BOM manages `com.firefly` artifact versions only. The `org.fireflyframework` artifact versions are managed separately by the `fireflyframework-bom` (imported automatically via `firefly-parent`).
+> **Note:** This BOM manages `io.fireflysoftware` artifact versions only. The `org.fireflyframework` artifact versions are managed separately by the `fireflyframework-bom` (imported automatically via `firefly-parent`).
 
 ## What It Provides
 
-- One place to define the version of every `com.firefly` artifact
+- One place to define the version of every `io.fireflysoftware` artifact
 - Guarantees that all modules in a deployment use compatible versions
 - Eliminates scattered `<version>` tags in consumer POMs
 
@@ -33,9 +33,9 @@ Import the BOM inside your `<dependencyManagement>` section:
 <dependencyManagement>
     <dependencies>
         <dependency>
-            <groupId>com.firefly</groupId>
+            <groupId>io.fireflysoftware</groupId>
             <artifactId>firefly-bom</artifactId>
-            <version>26.10.2</version>
+            <version>26.10.3</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -47,7 +47,7 @@ Then declare dependencies without a `<version>`:
 
 ```xml
 <dependency>
-    <groupId>com.firefly</groupId>
+    <groupId>io.fireflysoftware</groupId>
     <artifactId>library-common-batch</artifactId>
 </dependency>
 ```
