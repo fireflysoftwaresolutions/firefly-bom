@@ -35,7 +35,7 @@ Import the BOM inside your `<dependencyManagement>` section:
         <dependency>
             <groupId>com.firefly</groupId>
             <artifactId>firefly-bom</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.2.0-SNAPSHOT</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -165,5 +165,5 @@ Insurance cores store records. They reference parties in `core-common-customer-m
 
 ## Related
 
-- [firefly-parent](https://github.com/firefly-oss/firefly-parent) — parent POM (extends `fireflyframework-parent`, imports `fireflyframework-bom` at **26.10.19**)
+- [firefly-parent](https://github.com/firefly-oss/firefly-parent) — parent POM (extends `fireflyframework-parent`, imports `fireflyframework-bom` at **26.10.20**)
 - [OpenPlatform](https://openplatform.fireflysoftware.io) — platform host
