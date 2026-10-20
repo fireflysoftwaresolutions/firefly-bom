@@ -1,6 +1,8 @@
 # Firefly BOM (Bill of Materials)
 
-Centralized version management for **all** Firefly OpenCore Banking Platform `com.firefly` artifacts. Import this BOM to pin every Firefly library, core service, domain service, and application module to a single, consistent version.
+Centralized version management for **all** Firefly OpenPlatform `com.firefly` artifacts. Import this BOM to pin every shared library, core service, domain service, experience service, and application to a single version.
+
+OpenPlatform covers shared business capabilities and the industry cores that sit on them. Banking and lending are two of those industries. Insurance is another. The bill of materials is not a core-banking-only catalog.
 
 > **Note:** This BOM manages `com.firefly` artifact versions only. The `org.fireflyframework` artifact versions are managed separately by the `fireflyframework-bom` (imported automatically via `firefly-parent`).
 
@@ -20,7 +22,7 @@ Import the BOM inside your `<dependencyManagement>` section:
         <dependency>
             <groupId>com.firefly</groupId>
             <artifactId>firefly-bom</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.1.0-SNAPSHOT</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -66,7 +68,21 @@ Then declare dependencies without a `<version>`:
 | `core-banking-cards` | Card services |
 | `core-banking-ledger` | General ledger |
 | `core-banking-payments` | Payment processing |
-| `core-banking-psdx` | PSD2 compliance |
+| `core-banking-psdx` | Open-banking access records for account information and payment initiation |
+
+### Core Insurance
+
+| Artifact | Description |
+|----------|-------------|
+| `core-insurance-policies` | Policy records, parties, transactions, coverages, certificates, and line-specific risk details |
+| `core-insurance-underwriting` | Submissions, clearance, statements of value, loss runs, quotes, referrals, and decisions |
+| `core-insurance-claims` | Claim files, coverage checks, reserves, assessments, settlements, fraud referrals, and recoveries |
+| `core-insurance-financials` | Premium schedules, commissions, refunds, bordereaux, audits, and credit control |
+| `core-insurance-delegated-authority` | Binders, authority limits, and coverholder appointments |
+| `core-insurance-reinsurance` | Treaties, cessions, and reinsurance recoveries |
+| `core-insurance-reserving` | Reserving snapshots, loss-development cells, and reporting extracts |
+
+Insurance cores store records. They reference parties in `core-common-customer-mgmt` and agreements in `core-common-contract-mgmt`. Payment execution stays in `core-banking-payments`.
 
 ### Core Lending
 
@@ -136,4 +152,5 @@ Then declare dependencies without a `<version>`:
 
 ## Related
 
-- [firefly-parent](https://github.com/firefly-oss/firefly-parent) - Parent POM (extends `fireflyframework-parent`, imports `fireflyframework-bom` at **26.02.01**)
+- [firefly-parent](https://github.com/firefly-oss/firefly-parent) — parent POM (extends `fireflyframework-parent`, imports `fireflyframework-bom` at **26.10.19**)
+- [OpenPlatform](https://openplatform.fireflysoftware.io) — platform host
