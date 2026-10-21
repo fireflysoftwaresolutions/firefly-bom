@@ -801,6 +801,31 @@
             </dependency>
             <dependency>
                 <groupId>io.fireflysoftware</groupId>
+                <artifactId>domain-lending-mortgage-sdk</artifactId>
+                <version>26.10.4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.fireflysoftware</groupId>
+                <artifactId>domain-lending-supply-chain-finance-sdk</artifactId>
+                <version>26.10.4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.fireflysoftware</groupId>
+                <artifactId>domain-insurance-underwriting-sdk</artifactId>
+                <version>26.10.4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.fireflysoftware</groupId>
+                <artifactId>domain-insurance-policies-sdk</artifactId>
+                <version>26.10.4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.fireflysoftware</groupId>
+                <artifactId>domain-insurance-claims-sdk</artifactId>
+                <version>26.10.4</version>
+            </dependency>
+            <dependency>
+                <groupId>io.fireflysoftware</groupId>
                 <artifactId>domain-product-catalog-sdk</artifactId>
                 <version>26.10.4</version>
             </dependency>
